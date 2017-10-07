@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Config from './cfg/config.js'
 import { Navbar, Nav, NavDropdown, NavItem, MenuItem } from 'react-bootstrap'
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
         </Navbar>
 
         <header className="App-header">
-      
+          
           <h1 className="App-title">Twitter Reaper reaps what you sow</h1>
         </header>
         <p className="App-intro container">
