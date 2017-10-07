@@ -10,12 +10,12 @@ class App extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Twitter Reaper</a>
+              <a>Twitter Reaper</a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav>
-            <NavItem eventKey={1} href="#">How it works</NavItem>
-            <NavItem eventKey={2} href="#">About</NavItem>
+            <NavItem eventKey={1}>How it works</NavItem>
+            <NavItem eventKey={2}>About</NavItem>
             <NavDropdown eventKey={3} title="Reaper" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1}>Harvest Followers</MenuItem>
               <MenuItem eventKey={3.2}>Send DM's</MenuItem>
@@ -27,7 +27,7 @@ class App extends Component {
         </Navbar>
 
         <header className="App-header">
-          
+
           <h1 className="App-title">Twitter Reaper reaps what you sow</h1>
         </header>
         <p className="App-intro container">
