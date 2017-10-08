@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import Config from './cfg/config.js'
+import Twitter from 'twitter'
+
 import { Navbar, Nav, NavDropdown, NavItem, MenuItem } from 'react-bootstrap'
+
+const client = new Twitter({
+  consumer_key: Config.apiKey,
+  consumet_secret: Config.apiKeySecret,
+  access_token_key: Config.accessToken,
+  access_token_secret: Config.accessTokenSecret,
+})
 
 class App extends Component {
   render() {
